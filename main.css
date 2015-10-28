@@ -1,1 +1,45 @@
-/* Add custom styles here */
+body {
+	margin: 0 auto;
+	background-color: snow;
+}
+
+.box {
+	border: 1px solid lightgray;
+}
+
+.img-fullsize {
+	width: 100%;
+}
+
+.img-embedded {
+	float: left;
+	margin: 10px;
+}
+
+.img-caption {
+	background-color: snow;
+	border: 1px solid lightgray;
+	padding: 10px;
+	text-align: center;
+}
+
+.italics {
+	font-style: italic;
+}
+
+.panel-body {
+	background-color: snow;
+}
+
+.nav {
+	background-color: #313131;
+}
+
+..navbar-default .navbar-nav > .active > a {
+    color: white;
+    background-color: #313131;
+}
+
+.navbar-default .navbar-nav > li > a {
+	color: white;
+}
