@@ -35,7 +35,7 @@ body {
 	background-color: #313131;
 }
 
-..navbar-default .navbar-nav > .active > a {
+.navbar-default .navbar-nav > .active > a {
     color: white;
     background-color: #313131;
 }

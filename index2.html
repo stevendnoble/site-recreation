@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<head>
+<title>Examples of using jQuery Alerts</title>
+<script src="jquery.js" type="text/javascript"></script>
+<script src="jquery.ui.draggable.js" type="text/javascript"></script>
+ 
+<script src="jquery.alerts.js" type="text/javascript"></script>
+<link href="jquery.alerts.css" rel="stylesheet" type="text/css" media="screen" />
+ 
+<!-- Example script -->
+<script type="text/javascript">
+$(document).ready( function() {
+ 
+$("#alert_html").click( function() {
+jAlert('HTML attributes , such as <strong>bold</strong>, <em>italics</em>, and <u>underline</u>! <a href="http://www.google.com">your site</a>');
+});
+ 
+});
+</script>
+</head>
+<body>
+<p>
+<input id="alert_html" type="button" value="Show HTML included Alert" />
+</p>
+</body>
+</html>
